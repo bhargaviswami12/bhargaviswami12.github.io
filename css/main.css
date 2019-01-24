@@ -65,7 +65,7 @@ header ul.header_menu li:last-child{
     padding-right : 15px;
 }
 div.main_body{
-    min-height:400px;
+    min-height:70vh;
     width:100%;
     display:inline-flex;
 }
@@ -89,4 +89,22 @@ footer div.footer{
     font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
     font-size: 18px;
     transform: scale(1, 0.8);
+}
+body div.click_for_more{
+    color: white;
+    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    transform: scale(1, 0.8);
+    text-align: center;
+    align-content: center;
+}
+body div.click_for_more span, body div.click_for_more img{
+    display: block;
+    margin: auto;
+}
+
+body div.click_for_more img{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
 }
