@@ -5,6 +5,7 @@
   @font-face {
     font-family: 'Ferrum';
     src: url('../assets/fonts/ferrum.woff') format('woff');
+    font-weight: 400;
   }
 
 
@@ -13,6 +14,7 @@ body{
     z-index: 0;
     position: relative;
     display: block;
+    min-width: 1000px;
     width : 100%;
     min-height : 100vh;
 }
@@ -34,11 +36,12 @@ body::after {
 
 header, footer{
     background-color: #0d0d0d;
-    opacity : 0.6;
+    opacity : 0.8;
     width : 100%;
 }
 header{
     height : 70px;
+    border-bottom: 1px solid white;
 }
 header ul.header_menu{
     list-style-type: none;
@@ -64,31 +67,27 @@ header ul.header_menu li:hover{
 header ul.header_menu li:last-child{
     padding-right : 15px;
 }
-div.main_body{
-    min-height:70vh;
+div.intro_body{
+    min-height:50vh;
     width:100%;
     display:inline-flex;
 }
-div.main_about{
+div.intro_about{
     text-align: center;
-    width : 65%;
+    width : 50%;
     color: white;
     margin: auto;
     font-size: 35px;
     font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
 }
-div.main_img{
-    width : 35%;
+div.intro_img{
+    width : 50%;
 }
-footer{
-    height : 30px;
+div.intro_img div.inner_div{
+    margin:40px;
 }
-footer div.footer{
-    margin-left : 100px;
-    color: white;
-    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    transform: scale(1, 0.8);
+div.intro_img div.inner_div img{
+    border-radius: 50%;
 }
 body div.click_for_more{
     color: white;
@@ -107,4 +106,35 @@ body div.click_for_more img{
     margin-top: 15px;
     background-color: white;
     border-radius: 15px;
+}
+div.more_info section h1{
+    min-height : 40px;
+    width : 100%;
+    color : white;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0d0d0d;
+    font-weight: 400;
+    opacity: 0.8;
+    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+    transform: scale(1,0.8);
+    padding-top : 20px;
+    padding-bottom: 20px;
+    border-top : 1px solid white;
+    border-bottom : 1px solid white;
+}
+
+footer{
+    height : 30px;
+    margin-top: 30px;
+    border-top : 2px solid white;
+
+}
+footer div.footer{
+    margin-left : 100px;
+    color: white;
+    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    transform: scale(1, 0.7);
 }
