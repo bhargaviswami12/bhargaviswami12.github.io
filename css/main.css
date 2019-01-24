@@ -80,6 +80,10 @@ div.intro_about{
     font-size: 35px;
     font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
 }
+div.intro_about span.my_name{
+    font-size: 38px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
 div.intro_img{
     width : 50%;
 }
@@ -106,6 +110,11 @@ body div.click_for_more img{
     margin-top: 15px;
     background-color: white;
     border-radius: 15px;
+}
+div.more_info section .section_body{
+    background-color: rgba(128, 128, 128, 0.2);
+    color : black;
+    
 }
 div.more_info section h1{
     min-height : 40px;

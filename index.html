@@ -25,7 +25,7 @@
         <div class="content_starts">
             <!-- Into and Image section -->
             <div class="intro_body">
-                <div class="intro_about"> " Hello ! I am Bhargavi Swaminathan.<p>I am a UI Developer "</p> </div>
+                <div class="intro_about"> " Hello !<br /> I am <span class="my_name">Bhargavi Swaminathan</span>, A UI Developer.<br /> Welcome to My Page " </div>
                 <div class="intro_img"><div class="inner_div"><img src="./assets/images/my_img.jpg" height="350" width="350" /></div></div>
             </div>
 
@@ -40,7 +40,8 @@
                 <div class="about_me" id="about_me">
                     <section>
                         <h1>ABOUT ME</h1>
-                                About Me
+                        <div class="section_body">
+                            <div class="section_body_data">   About Me
                                 You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
             
             A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
@@ -50,15 +51,17 @@
             The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
             
             So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            </div>    
+                        </div>    
                     </section>
                            
                 </div>
                 
                 <div class="work" id="work">
                     <section>
-                            <h1>WORK</h1>
-                                Work
-                                You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
+                        <h1>WORK</h1>
+                        <div class="section_body">   
+                            <div class="section_body_data">  Work   You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
 
                                 A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
 
@@ -67,21 +70,26 @@
                                 The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
 
                                 So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            </div>
+                        </div>
                     </section>
                 </div>
                 <div class="education" id="education">
                     <section>
                         <h1>EDUCATION</h1>
-                        Education
-                        You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
+                        <div class="section_body">
+                            <div class="section_body_data">Education
+                            You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
 
-                        A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
+                            A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
 
-                        A z-index higher that the surrounding content is given so that it comes on top (which you have done giving wrapper a z-index: 99)
+                            A z-index higher that the surrounding content is given so that it comes on top (which you have done giving wrapper a z-index: 99)
 
-                        The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
+                            The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
 
-                        So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            </div>
+                        </div>    
                     </section>   
                 </div>
             </div>
