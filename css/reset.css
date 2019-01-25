@@ -1,4 +1,7 @@
-html, body, h1, ul {
+* {
+    box-sizing: border-box;
+  }
+html, body, h1, ul, h2 {
     margin : 0;
 }
 ul{
