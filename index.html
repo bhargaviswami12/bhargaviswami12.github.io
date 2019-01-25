@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Bhargavi's Portfolio</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/reset.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
@@ -23,6 +24,10 @@
         </header>
 
         <div class="content_starts">
+            <!-- Button for resume download -->
+            <form method="get" action="./assets/files/Bhargavi _Swaminathan.pdf" target="_blank">
+                <button class="btn_download" type="submit">View My Resume</button>
+            </form>
             <!-- Into and Image section -->
             <div class="intro_body">
                 <div class="intro_about"> " Hello !<br /> I am <span class="my_name">Bhargavi Swaminathan</span>, A UI Developer.<br /> Welcome to My Page " </div>
@@ -32,7 +37,7 @@
             <!-- Click to know more section with a button to scroll below -->
             <div class="click_for_more">
                 <span>to know more about me</span>
-                <a href="https://bhargaviswami12.github.io/"><img src="./assets/images/drop-down-round-button.svg" width="30px" height="30px" /></a>
+                <a href="#about_me"><img src="./assets/images/drop-down-round-button.svg" width="30px" height="30px" /></a>
             </div>
 
             <!-- Actual information section containing work and education -->
@@ -41,16 +46,29 @@
                     <section>
                         <h1>ABOUT ME</h1>
                         <div class="section_body">
-                            <div class="section_body_data">   About Me
-                                You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
-            
-            A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
-            
-            A z-index higher that the surrounding content is given so that it comes on top (which you have done giving wrapper a z-index: 99)
-            
-            The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
-            
-            So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            <div class="section_body_data">   
+                                <div class="about_me_1">About Me
+                                        You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
+                    
+                    A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
+                    
+                    A z-index higher that the surrounding content is given so that it comes on top (which you have done giving wrapper a z-index: 99)
+                    
+                    The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
+                    
+                    So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                                </div>
+                                <div class="about_me_2">
+                                    <div class="about_me_2_left">
+                                        
+                                    </div>
+                                    <div class="about_me_2_right">
+
+                                    </div>
+                                </div>
+                                <div class="about_me_3">
+
+                                </div>
                             </div>    
                         </div>    
                     </section>

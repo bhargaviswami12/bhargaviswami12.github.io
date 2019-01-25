@@ -110,6 +110,28 @@ div.intro_body{
 }
 /* Animation effects for the page into part - end */
 
+/* Download Button */
+button.btn_download {
+    margin-top: 10px;
+    font-size : 18px;
+    transform : scale(1, 0.8);
+    width : 100px;
+    color : white;
+    background: #0d0d0d;
+    opacity: 0.8;
+    border-radius: 4px;
+    position: absolute;
+    left: 87%;
+    height: 50px;
+    width: fit-content;
+    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+}
+button.btn_download:hover{
+    background: black;
+    cursor: pointer;
+}
+
+/* The into body */
 div.intro_about{
     text-align: center;
     width : 50%;
@@ -149,6 +171,8 @@ body div.click_for_more img{
     background-color: white;
     border-radius: 15px;
 }
+
+/* Section header and body*/
 div.more_info section .section_body{
     background-color: rgba(128, 128, 128, 0.2);
     color : black;
@@ -171,20 +195,13 @@ div.more_info section h1{
     border-bottom : 1px solid white;
 }
 
-footer{
-    height : 30px;
-    margin-top: 30px;
-    border-top : 2px solid white;
+/* About Me Section */
+div.about_me{
+ color :      
+}
 
-}
-footer div.footer{
-    margin-left : 100px;
-    color: white;
-    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 18px;
-    transform: scale(1, 0.7);
-}
+
+/* Work Section - time line  */
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -280,4 +297,17 @@ footer div.footer{
     border : 1px solid white;
   }
 
-  
+   footer{
+    height : 30px;
+    margin-top: 30px;
+    border-top : 2px solid white;
+
+}
+footer div.footer{
+    margin-left : 100px;
+    color: white;
+    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    transform: scale(1, 0.7);
+}
