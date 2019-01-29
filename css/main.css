@@ -2,12 +2,15 @@
     font-family: 'MyWebFont';
     src: url('../assets/fonts/BrookeS8.woff') format('woff');
   }
-  @font-face {
+@font-face {
     font-family: 'Ferrum';
     src: url('../assets/fonts/ferrum.woff') format('woff');
     font-weight: 400;
   }
-
+@font-face {
+    font-family: 'Mina';
+    src: url('../assets/fonts/mina-is-gone.regular.woff') format('woff');
+  }
 
 body{
     margin : 0px;
@@ -175,9 +178,16 @@ body div.click_for_more img{
 /* Section header and body*/
 div.more_info section .section_body{
     background-color: rgba(128, 128, 128, 0.2);
-    color : black;
-    
+    color : #b3b3b3;   
 }
+
+div.more_info section .section_body .section_body_data{
+    width : 80%;
+    margin : auto;
+    text-align : justify;
+    padding: 20px 0;
+}
+
 div.more_info section h1{
     min-height : 40px;
     width : 100%;
@@ -196,10 +206,25 @@ div.more_info section h1{
 }
 
 /* About Me Section */
-div.about_me{
- color :      
-}
 
+div.about_me section .about_me_1 p::first-letter{
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: 700;
+}
+div.about_me section .about_me_2{
+    display: flex;
+    margin-top: 15px;
+}
+div.about_me section .about_me_2_left{
+    width : 30%;
+    font-family: Mina, sans-serif ,'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center; 
+}
+div.about_me section .about_me_2_right{
+    padding-left: 30px;
+}
 
 /* Work Section - time line  */
 /* The actual timeline (the vertical ruler) */
