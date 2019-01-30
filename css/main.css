@@ -232,7 +232,7 @@ div.about_me section .about_me_2_right{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
   }
   
@@ -254,7 +254,7 @@ div.about_me section .about_me_2_right{
   
   /* Container around content */
   .container {
-    padding: 25px 40px;
+    padding: 15px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -321,7 +321,20 @@ div.about_me section .about_me_2_right{
     border-radius: 6px;
     border : 1px solid white;
   }
-
+.content h2{
+    font-size: 1.2em;
+}
+.content p{
+    font-size: 0.9em;
+}
+.content span.location{
+    font-size : 0.8em;
+}
+.content .duration{
+    font-size: 0.8em;
+    font-style: italic; 
+}
+  /* Footer */
    footer{
     height : 30px;
     margin-top: 30px;
