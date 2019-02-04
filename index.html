@@ -14,10 +14,7 @@
                     <li><a href="#about_me"><span>About</span></a></li>
                     <li><a href="#work"><span>Work</span></a></li>
                     <li><a href="#education"><span>Education</span></a></li>
-                    <li>Fb</li>
-                    <li>Linked</li>
-                    <li>Twitter</li>
-                    <li>Gmail</li>
+                    <li>Contact</li>
                 </ul>
 
             </div>
@@ -122,16 +119,17 @@
                     <section>
                         <h1>EDUCATION</h1>
                         <div class="section_body">
-                            <div class="section_body_data">Education
-                            You already have a 100px header and a margin-top applied to site-content for the content following it, as is usually done.
-
-                            A position: fixed header will be taken out of the flow. So the DOM element following it will overlap.
-
-                            A z-index higher that the surrounding content is given so that it comes on top (which you have done giving wrapper a z-index: 99)
-
-                            The content following it is given a margin-top value. If the height of the header is fixed (as is the case here) you give it using CSS, if the height of the header is dynamic, you might have to opt for javascript to set the height dynamically.
-
-                            So restrict the heights of #global-navigation and .header using height: 100% and add display: flex to the navigation ul. Also remove the absolute positioning of the banner and apply background image to site-content- see demo below:
+                            <div class="section_body_data">
+                                <div class="deg">
+                                    <div class="deg_title"><p class="univ_name">ANNA UNIVERSITY, <span>Chennai(India)</span></p><p class="year">August 2014 - June 2016</p></div>
+                                    <p class="deg_name">Master in Engineering</p>
+                                    <p class="course_name">Computer and Communication</p>
+                                </div>
+                                <div class="deg">
+                                        <div class="deg_title"><p class="univ_name">ANNA UNIVERSITY, <span>Chennai(India)</span></p><p class="year">September 2012 - April 2014</p></div>
+                                        <p class="deg_name">Bachelor of Technology</p>
+                                        <p class="course_name">Information Technology</p>
+                                </div>     
                             </div>
                         </div>    
                     </section>   

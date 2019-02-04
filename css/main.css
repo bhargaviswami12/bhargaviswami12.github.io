@@ -50,17 +50,18 @@ header ul.header_menu{
     list-style-type: none;
     min-width: 300px;
     color: white;
-    font-size: 16pt;
+    font-size: 13pt;
     float: right;
     margin-right:10px;
-    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
-    transform: scale(1, 0.8);
-    padding-top: 20px;
+    font-family: serif;
+    text-transform: uppercase;
+    padding-top: 25px;
     padding-bottom: 25px;
+    font-weight: 500;
 }
 header ul.header_menu li{
     display: inline;
-    padding: 30px 10px 30px 10px;
+    padding: 30px 10px 25px 10px;
     cursor: pointer;
 }
 header ul.header_menu li:hover{
@@ -116,8 +117,7 @@ div.intro_body{
 /* Download Button */
 button.btn_download {
     margin-top: 10px;
-    font-size : 18px;
-    transform : scale(1, 0.8);
+    font-size : 15px;
     width : 100px;
     color : white;
     background: #0d0d0d;
@@ -127,7 +127,8 @@ button.btn_download {
     left: 87%;
     height: 50px;
     width: fit-content;
-    font-family: Ferrum, sans-serif, 'Times New Roman', Times, serif;
+    font-family: serif;
+    text-transform: uppercase;
 }
 button.btn_download:hover{
     background: black;
@@ -337,6 +338,29 @@ div.about_me section .about_me_2_right{
     font-size: 0.8em;
     font-style: italic; 
 }
+/* Education Section */
+div.education div.deg{
+    margin-left: 20%;
+}
+div.education div.deg:first-child{
+    margin-bottom: 20px;
+}
+div.education div.deg div.deg_title{
+    display : flex;
+}
+div.education div.deg div.deg_title p.univ_name{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+div.education div.deg div.deg_title p.univ_name span{
+    font-size: initial;
+    font-weight: 500;
+}
+div.education div.deg div.deg_title p.year{
+    margin: auto;
+    font-style: italic;
+}
+
   /* Footer */
    footer{
     height : 30px;
