@@ -118,7 +118,7 @@ div.intro_body{
 button.btn_download {
     margin-top: 10px;
     font-size : 15px;
-    width : 100px;
+    padding: 15px;
     color : white;
     background: #0d0d0d;
     opacity: 0.8;
@@ -340,7 +340,7 @@ div.about_me section .about_me_2_right{
 }
 /* Education Section */
 div.education div.deg{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 div.education div.deg:first-child{
     margin-bottom: 20px;
@@ -360,6 +360,32 @@ div.education div.deg div.deg_title p.year{
     margin: auto;
     font-style: italic;
 }
+/* Contact Me Section */
+div.contact_me p.contact_title{
+    font-style: italic;
+    font-size: 1.5em;
+    margin-left: 10%;
+}   
+div.contact_me div.contact_body{
+    margin-left: 10%;
+    display : flex;
+    margin-top : 20px;
+}
+div.contact_me div.contact_body div.contact_left, div.contact_me div.contact_body div.contact_right{
+    width:50%;
+    text-align : center;
+}
+div.contact_me div.contact_body div.contact_left p:nth-child(2){
+    margin-top : 15px;
+}
+div.contact_me div.contact_body div.contact_left email{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+div.contact_me div.contact_body div.contact_right hr{
+    width : 30%;
+}
+
 
   /* Footer */
    footer{
