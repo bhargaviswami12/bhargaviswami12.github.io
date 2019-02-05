@@ -385,7 +385,28 @@ div.contact_me div.contact_body div.contact_left email{
 div.contact_me div.contact_body div.contact_right hr{
     width : 30%;
 }
-
+div.contact_me div.contact_body div.contact_right div.icons{
+    margin-top: 15px;
+}
+div.contact_me div.contact_body div.contact_right div.icons img{
+    width: 25px;
+    height: 25px;
+}
+div.contact_me div.contact_body div.contact_right div.icons img.fb_icon, 
+div.contact_me div.contact_body div.contact_right div.icons img.linkedin_icon{
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+div.contact_me div.contact_body div.contact_right div.icons img.twitter_icon{
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+div.contact_me div.contact_body div.contact_right div.icons a:not(:first-child){
+    margin-left: 13px;
+}
+div.contact_me div.contact_body div.contact_right div.github{
+    margin-top: 20px;
+}
 
   /* Footer */
    footer{
