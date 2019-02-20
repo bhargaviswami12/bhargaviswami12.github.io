@@ -178,7 +178,7 @@ body div.click_for_more img{
 
 /* Section header and body*/
 div.more_info section .section_body{
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     color : #b3b3b3;   
 }
 
@@ -233,6 +233,7 @@ div.about_me section .about_me_2_right{
 /* Work Section - time line  */
 .work .section_body_data h3{
     text-align: center;
+    margin: 5px 0 20px 0;
 }
 
 /* Container for skill bars */
@@ -257,18 +258,41 @@ div.about_me section .about_me_2_right{
   text-align: right; /* Right-align text */
   padding: 10px; /* Add some padding */
   color: white; /* White text color */
-  width : 50%;
   background-color: #0d0d0d;
 }
 .work .section_body_data .skills span.skill_name{
   float: left; /* Left-align text */
 }
 
-.work .section_body_data .html {width: 90%;} 
+.work .section_body_data .html {width: 80%;} 
 .work .section_body_data .css {width: 80%; } 
-.work .section_body_data .js {width: 65%; } 
-.work .section_body_data .php {width: 60%; } 
+.work .section_body_data .jQuery {width: 70%; } 
+.work .section_body_data .react {width: 70%; } 
+.work .section_body_data .angular {width: 40%; } 
 
+.work .section_body_data .skills_others{
+    font-size: 1.1em;
+}
+.work .section_body_data .skills_others .main_block{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #0d0d0d;
+}
+.work .section_body_data .skills_others .main_block .block{
+    width: 25%;
+    text-align: center;
+}
+
+.work .section_body_data .skills_others .main_block .block h4{
+    margin-bottom : 10px;
+}
+.work .section_body_data .skills_others .main_block .block hr{
+    width : 70px;
+}
 
 
 /* Education Section */
