@@ -49,6 +49,7 @@
         margin : 20px;
         background-color: white;
         float : right;
+        padding: 5px;
     }
     header ul.header_menu{
         display : none;
