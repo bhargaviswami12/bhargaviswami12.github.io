@@ -19,6 +19,7 @@
         display: block;
         width : 100%;
         min-height : 100vh;
+        color: white;
     }
     body::after {
         background: url(../assets/images/4k-blue-dark-backgrounds.jpg) no-repeat center center fixed; 
@@ -69,7 +70,52 @@
     header ul.header_menu li:not(:first-child){
         padding-top: 20px;
     }
+    /* Content Section */
+    button.btn_download {
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size : 15px;
+        padding: 15px;
+        color : white;
+        background: #0d0d0d;
+        opacity: 0.8;
+        border-radius: 4px;
+        float: right;
+        width: fit-content;
+        font-family: serif;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+    div.intro_about{
+        clear: both;
+        text-align : center;
+        padding-top : 10px;
+        font-size : 1.5em;
+        color : white;
+    }
+    div.intro_img{
+        margin-top: 20px;
+    }
+    div.intro_img .inner_div{
+        margin: auto;
+        width: 70vw;
+        height: 80%;
+    }
+    div.intro_img .inner_div img{
+        height: 80%;
+        margin: auto;
+        width: 70vw;
+        max-height: 200px;
+        border-radius: 30px;
+    }
+    div.click_for_more{
+        display: none;
+    }
+    div.more_info{
+        margin-top : 20px;
+    }
 
+    /* Desktop screens */
 @media only screen and (min-width: 768px) {    
     body{
         min-width : 1000px;
@@ -191,9 +237,13 @@
     }
     div.intro_img div.inner_div{
         margin:40px;
+        width: auto;
     }
     div.intro_img div.inner_div img{
         border-radius: 50%;
+        height: 350px;
+        width: 350px;
+        max-height: 350px;
     }
 
     body div.click_for_more{
@@ -203,6 +253,7 @@
         transform: scale(1, 0.8);
         text-align: center;
         align-content: center;
+        display: block;
     }
     body div.click_for_more span, body div.click_for_more img{
         display: block;
