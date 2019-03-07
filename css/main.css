@@ -167,6 +167,12 @@
     }
 
 
+
+    footer div.footer{
+        padding: 10px;
+        text-align: center;
+    }   
+
     /* Desktop screens */
 @media only screen and (min-width: 768px) {    
     body{
@@ -511,5 +517,7 @@
         font-weight: 400;
         font-size: 18px;
         transform: scale(1, 0.7);
+        padding: inherit;
+        text-align: inherit;
     }
 }
