@@ -114,6 +114,41 @@
     div.more_info{
         margin-top : 20px;
     }
+    div.more_info section h1{
+        background-color: #0d0d0d;
+        padding: 10px;
+        text-align: center;
+    }
+    div.more_info section .section_body{
+        margin: 0 10px;
+    }
+    div.skill_bar, div.skills_others{
+        margin: 20px 0;
+    }
+    div.skill_bar h3, div.skills_others h3{
+        text-transform: uppercase;
+        margin-left: 10px;
+    }
+    div.skill_bar .container_main{
+        display: flex;
+    }
+    div.skill_bar .container_main .container{
+        background-color: #b3b3b3;
+        margin: 8px 3px 3px 4px;
+        width: 50%;
+    }
+    div.skill_bar .container_main .container .skills{
+        background-color: black;
+        padding : 5px;
+    }
+    .work .section_body_data .html {width: 80%;} 
+    .work .section_body_data .css {width: 80%; } 
+    .work .section_body_data .jQuery {width: 70%; } 
+    .work .section_body_data .react {width: 70%; } 
+    .work .section_body_data .angular {width: 40%; } 
+    .work .section_body_data .container.nofill{
+        background-color: inherit;
+    }
 
     /* Desktop screens */
 @media only screen and (min-width: 768px) {    
@@ -338,13 +373,10 @@
     background-color: #b3b3b3;
     margin-bottom: 20px;
     }
-    .work .section_body_data .container.nofill{
-        background-color: inherit;
-    }
     .work .section_body_data .container:nth-child(2n+1){
         margin-right: 50px;
     }
-    .work .section_body_data .skills {
+    div.skill_bar .container_main .container .skills {
     text-align: right; /* Right-align text */
     padding: 10px; /* Add some padding */
     color: white; /* White text color */
@@ -353,12 +385,6 @@
     .work .section_body_data .skills span.skill_name{
     float: left; /* Left-align text */
     }
-
-    .work .section_body_data .html {width: 80%;} 
-    .work .section_body_data .css {width: 80%; } 
-    .work .section_body_data .jQuery {width: 70%; } 
-    .work .section_body_data .react {width: 70%; } 
-    .work .section_body_data .angular {width: 40%; } 
 
     .work .section_body_data .skills_others{
         font-size: 1.1em;
