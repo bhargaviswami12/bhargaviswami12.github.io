@@ -119,7 +119,7 @@
         padding: 10px;
         text-align: center;
     }
-    div.more_info section .section_body{
+    div.more_info section .section_body {
         margin: 0 10px;
     }
     div.skill_bar, div.skills_others{
@@ -165,13 +165,55 @@
         padding: 10px 0;
         text-align: center;
     }
+    div.contact_me section div.section_body_data{
+        margin: 10px 0;
+    }
+    div.contact_me p.contact_title{
+        font-style: italic;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    div.contact_me div.contact_body{
+        margin: 5px;
+        text-align: justify;
+    }
+    div.contact_me div.contact_body div.contact_left p:nth-child(2n){
+        margin: 10px;
+    }
+    div.contact_me div.contact_body div.contact_left email{
+        font-style: italic;
+        font-family: calibri;
+        font-size: 1.1em;
+    }
+    div.contact_me div.contact_body div.contact_right{
+        margin-top:10px;
+        text-align: center;
+    }    
 
 
-
+    div.contact_me div.contact_body div.contact_right hr{
+        width : 30%;
+    }
+    div.contact_me div.contact_body div.contact_right div.icons img{
+        width: 35px;
+        height: 35px;
+        margin: 0 8px;
+    }
+    div.contact_me div.contact_body div.contact_right div.icons img.fb_icon, 
+    div.contact_me div.contact_body div.contact_right div.icons img.linkedin_icon{
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+    }
+    div.contact_me div.contact_body div.contact_right div.icons img.twitter_icon{
+        background-color: #ffffff;
+        border-radius: 4px;
+    }
     footer div.footer{
         padding: 10px;
         text-align: center;
     }   
+
+
 
     /* Desktop screens */
 @media only screen and (min-width: 768px) {    
@@ -463,6 +505,7 @@
         font-style: italic;
         font-size: 1.5em;
         margin-left: 10%;
+        text-align: inherit;
     }   
     div.contact_me div.contact_body{
         margin-left: 10%;
@@ -480,25 +523,15 @@
         font-weight: 700;
         font-size: 1.1em;
     }
-    div.contact_me div.contact_body div.contact_right hr{
-        width : 30%;
-    }
     div.contact_me div.contact_body div.contact_right div.icons{
         margin-top: 15px;
     }
     div.contact_me div.contact_body div.contact_right div.icons img{
         width: 25px;
         height: 25px;
+        margin: auto;
     }
-    div.contact_me div.contact_body div.contact_right div.icons img.fb_icon, 
-    div.contact_me div.contact_body div.contact_right div.icons img.linkedin_icon{
-        border: 1px solid #ffffff;
-        border-radius: 4px;
-    }
-    div.contact_me div.contact_body div.contact_right div.icons img.twitter_icon{
-        background-color: #ffffff;
-        border-radius: 4px;
-    }
+
     div.contact_me div.contact_body div.contact_right div.icons a:not(:first-child){
         margin-left: 13px;
     }
