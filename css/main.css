@@ -149,6 +149,23 @@
     .work .section_body_data .container.nofill{
         background-color: inherit;
     }
+    div.skills_others .main_block{
+        display: flex;
+        margin-top: 5px;
+    }
+    div.skills_others .main_block .block{
+        padding : 4px;
+        width : 25%;
+        text-align: center;
+    }
+    div.skills_others .main_block .block p {
+        margin-bottom: 4px;
+    }
+    div.education div.deg{
+        padding: 10px 0;
+        text-align: center;
+    }
+
 
     /* Desktop screens */
 @media only screen and (min-width: 768px) {    
@@ -359,6 +376,7 @@
     .work .section_body_data h3{
         text-align: center;
         margin: 5px 0 20px 0;
+        text-transform: none;
     }
 
     /* Container for skill bars */
@@ -414,6 +432,7 @@
     /* Education Section */
     div.education div.deg{
         margin-left: 15%;
+        text-align: left;
     }
     div.education div.deg:first-child{
         margin-bottom: 20px;
