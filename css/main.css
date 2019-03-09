@@ -208,6 +208,52 @@
         background-color: #ffffff;
         border-radius: 4px;
     }
+
+    div.work .section_body .section_body_data {
+        margin: 10px 0;
+    }
+    div.work .section_body .section_body_data .exp_container {
+        margin: 0 10px;
+        font-size: 1.1em;
+    }
+    div.work .section_body .section_body_data .exp_block {
+        border-radius: 10px;
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    div.exp_block p.comp_name {
+        text-transform: uppercase;
+        font-size: 1.15em;
+    }
+    div.exp_block div.role {
+        margin-top: 5px;
+    }
+    div.exp_block ul.proj_list > li{
+        margin: 10px 0 0 15px;
+    }
+    div.exp_block p.title {
+        display: inline;
+    }
+    div.exp_block p.years {
+        float: right;
+        display: inline;
+    }
+    div.exp_block p.proj_name {
+        margin: 5px 0;
+        text-transform: uppercase;
+    }
+    div.exp_block div.proj_desc ul{
+        list-style-type: none;
+        margin: 5px 0 3px 5px;
+    } 
+    div.exp_block div.proj_desc ul li .proj_type,div.exp_block div.proj_desc ul li .proj_client{
+        text-transform: uppercase;
+        font-family: calibri -webkit-body;
+    }
+
+
+
     footer div.footer{
         padding: 10px;
         text-align: center;
@@ -425,6 +471,22 @@
         text-align: center;
         margin: 5px 0 20px 0;
         text-transform: none;
+    }
+
+    /* Work Experience   */
+
+    div.work .section_body .section_body_data .exp_container {
+        padding: 0 10px;
+        font-size: inherit;
+        margin: auto;
+        width: 70%;
+    }
+    div.work .section_body .section_body_data .exp_block{
+        background-color:#0d0d0d;
+        border: 1px solid white;
+    }
+    div.exp_block div.proj_desc ul{
+        margin-left: 15px;
     }
 
     /* Container for skill bars */
